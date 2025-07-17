@@ -1,0 +1,16 @@
+{
+  "name": "project-beckend",
+  "version": "1.0.0",
+  "description": "A backend project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Santosh Yadav",
+  "license": "ISC"
+}
