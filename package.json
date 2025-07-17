@@ -2,15 +2,20 @@
   "name": "project-beckend",
   "version": "1.0.0",
   "description": "A backend project",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
+  
   "scripts": {
-    "start": "node server.js"
+    "dev" : "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Santosh Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
+
